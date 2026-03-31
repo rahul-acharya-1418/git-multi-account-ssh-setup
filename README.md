@@ -100,6 +100,10 @@ Explanation:
 ---
 
 # 3. Configure SSH Config File
+- [Force GitHub Desktop to use OpenSSH](https://stackoverflow.com/questions/56993115/how-can-i-use-ssh-remotes-with-github-desktop)
+```bash
+git config --global core.sshCommand "ssh"
+```
 
 Create the SSH config file:
 
